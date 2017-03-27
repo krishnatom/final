@@ -88,7 +88,7 @@ public class register extends AppCompatActivity {
                 if (tshop.equals("") || temail.equals("") || tphone.equals("") || pwd.equals("") || cpwd.equals("") || lat.equals("") || lon.equals("") ) {
                     alert.setTitle("Something went wrong");
                     alert.setMessage("Please fill in all details");
-                    Toast.makeText(getApplicationContext(), "\t" + tshop + "\t" + temail + "\t" + tphone + "\t"+pwd+"\t"+cpwd+"\t"+lat+"\t"+lon+"\t"+tdomain,Toast.LENGTH_LONG).show();
+//                    Toast.makeText(getApplicationContext(), "\t" + tshop + "\t" + temail + "\t" + tphone + "\t"+pwd+"\t"+cpwd+"\t"+lat+"\t"+lon+"\t"+tdomain,Toast.LENGTH_LONG).show();
                     displayAlert("input_error");
 
                 } else {
@@ -124,8 +124,8 @@ public class register extends AppCompatActivity {
                                 }, new Response.ErrorListener() {
                             @Override
                             public void onErrorResponse(VolleyError error) {
-
-
+                                Toast.makeText(getApplicationContext(),"Error in Response",Toast.LENGTH_LONG).show();
+                                error.printStackTrace();
 
                             }
                         }) {
