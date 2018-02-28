@@ -16,14 +16,14 @@ public class shopkeepers extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shopkeepers);
-        Toast.makeText(shopkeepers.this, "checking in shopkeepers", Toast.LENGTH_LONG).show();
+
         submit=(Button)findViewById(R.id.btn_register);
         login=(Button)findViewById(R.id.btn_signup);
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"test register bfre",Toast.LENGTH_LONG).show();
+
                 Intent i = new Intent(shopkeepers.this,register.class);
                 startActivity(i);
             }
@@ -31,7 +31,7 @@ public class shopkeepers extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"test login bfre",Toast.LENGTH_LONG).show();
+
                 Intent i = new Intent(shopkeepers.this,login.class);
                 startActivity(i);
             }

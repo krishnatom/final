@@ -1,17 +1,20 @@
 <resources>
     <string-array name="domain">
-        <item>Food</item>
-        <item>Groceries</item>
-        <item>Stationary</item>
-        <item>Fashion</item>
-        <item>Others</item>
+        <item>food</item>
+        <item>groceries</item>
+        <item>stationary</item>
+        <item>fashion</item>
+        <item>others</item>
 
     </string-array>
-    <string name="app_name">shop</string>
+    <string name="app_name">Namma Kadai</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_update">Update</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_on_map">Map</string>
+    <string name="title_activity_display">Map</string>
 </resources>

@@ -11,114 +11,56 @@
     android:weightSum="1">
 
     <TextView
-        android:layout_width="213dp"
+        android:layout_width="250dp"
         android:layout_height="40dp"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Register Shop"
+        android:text="       Register Shop"
         android:id="@+id/textView"
         android:layout_weight="0.12"
-        android:layout_marginTop="70dp"
-        android:layout_marginLeft="100dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Shop Name"
-        android:id="@+id/tv_shop"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="70dp"
-        android:layout_marginBottom="50dp" />
+        android:layout_gravity="center_horizontal"/>
 
     <EditText
-        android:layout_width="177dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:id="@+id/et_sname"
-        android:layout_gravity="right"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="-80dp"
-        android:layout_marginRight="50dp"
-        android:layout_marginBottom="80dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Email"
-        android:id="@+id/tv_shop_mail"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="-40dp" />
+        android:layout_gravity="center_horizontal"
+        android:hint="shop name" />
 
     <EditText
-        android:layout_width="170dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/et_email"
-        android:layout_gravity="right"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="-40dp"
-        android:layout_marginRight="50dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Phone"
-        android:id="@+id/tv_shop_phone"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="50dp" />
+        android:layout_gravity="center_horizontal"
+        android:hint="email" />
 
     <EditText
-        android:layout_width="180dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:inputType="phone"
         android:ems="10"
         android:id="@+id/et_phone"
-        android:layout_gravity="right"
-        android:layout_marginTop="-40dp"
-        android:layout_marginRight="30dp" />
+        android:layout_gravity="center_horizontal"
+        android:hint="phone" />
 
     <EditText
-        android:layout_width="193dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/et_fpwd"
-        android:layout_gravity="right"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="20dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Password"
-        android:id="@+id/textView2"
-        android:layout_weight="0.12"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="-30dp" />
+        android:hint="password"
+        android:layout_gravity="center_horizontal" />
 
     <EditText
-        android:layout_width="197dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/et_spwd"
-        android:layout_gravity="right"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="15dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Confirm Pwd"
-        android:id="@+id/textView3"
-        android:layout_weight="0.12"
-        android:layout_marginTop="-25dp"
-        android:layout_marginLeft="10dp" />
+        android:hint="confirm password"
+        android:layout_gravity="center_horizontal"/>
 
     <Spinner
         android:id="@+id/spinner_domain"

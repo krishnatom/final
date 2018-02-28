@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1004973059115",
+    "firebase_url": "https://namma-kadai-c2f07.firebaseio.com",
+    "project_id": "namma-kadai-c2f07",
+    "storage_bucket": "namma-kadai-c2f07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004973059115:android:61bab577fdb509df",
+        "android_client_info": {
+          "package_name": "com.example.krishna.shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004973059115-7sk9e09te5bum81bjre9s207castvuko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLUwO1BHgpGlo8bEhPhzCe6fZAcrmM7KA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

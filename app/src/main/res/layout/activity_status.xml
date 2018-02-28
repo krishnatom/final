@@ -14,8 +14,44 @@
         android:layout_height="70dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/tv_shopname"
+        android:textAlignment="center"
         android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/et_desc"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="139dp"
-        android:textAlignment="center" />
+        android:hint="Description" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:id="@+id/bt_update"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open"
+        android:id="@+id/btn_open"
+        android:layout_below="@+id/tv_shopname"
+        android:layout_alignStart="@+id/bt_update" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="closed"
+        android:id="@+id/btn_closed"
+        android:layout_below="@+id/btn_open"
+        android:layout_alignStart="@+id/btn_open" />
 </RelativeLayout>
